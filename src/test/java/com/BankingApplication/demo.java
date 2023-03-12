@@ -1,8 +1,11 @@
 package com.BankingApplication;
 
-public class Test {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class demo {
+	
+    @Test
+	public  void main() {
 		System.out.println("test");
 		System.out.println("Test2");
 		System.out.println("Test3");
